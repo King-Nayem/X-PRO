@@ -4,6 +4,6 @@ os.system('clear')
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    import NAYEM64.cpython-311.so
+    import NAYEM64
 elif bit == '32bit':
-    import NAYEM32.cpython-311.so
+    import NAYEM32
